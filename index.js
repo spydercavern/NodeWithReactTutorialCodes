@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // default router
 app.get("/", (req, res) => {
-  res.send({ hi: "there" });
+  res.send({ hi: "hello there, how are you doing?" });
 });
 
 app.get("/test", (req, res) => {

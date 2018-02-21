@@ -1,3 +1,19 @@
+Heroku needed to set nodejs as a build environment
 
-https://fast-lowlands-59785.herokuapp.com/ | 
-https://git.heroku.com/fast-lowlands-59785.git
+heroku buildpacks:set heroku/nodejs
+
+
+https://git.heroku.com/obscure-reaches-89969.git
+https://obscure-reaches-89969.herokuapp.com
+
+To push to heroku 
+
+# set remote to heroku 
+git remote add heroku https://git.heroku.com/obscure-reaches-89969.git
+
+# to push to heroku master
+git push heroku master
+
+
+additional changes to heroku app 
+
