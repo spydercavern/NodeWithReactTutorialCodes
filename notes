@@ -22,3 +22,10 @@ client ID
 87764317957-3raggkramqe1dtio1qqnmk9j276kmlqc.apps.googleusercontent.com
 Client Secret
 a5eW7P8o8tYLbSr7h9khqoez
+
+module.exports = {
+  googleClientID:
+    "87764317957-3raggkramqe1dtio1qqnmk9j276kmlqc.apps.googleusercontent.com",
+  googleCloentSecret: "a5eW7P8o8tYLbSr7h9khqoez",
+  mongoURI: "mongodb://admin:passwd@ds149138.mlab.com:49138/nodewithreact"
+};
