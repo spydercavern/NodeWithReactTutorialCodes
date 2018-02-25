@@ -33,7 +33,6 @@ passport.use(
       // query MongoDB to see if this person alreay has this profileID. if present, no record required.
       // User.findOne returns a promise,
       User.findOne({ googleId: profile.id }).then(existingUser => {
-        debugger;
         // if no user, existingUser is null
         if (existingUser) {
           // we already have a record with the profileId
