@@ -2,3 +2,4 @@ node_modules
 yarn.lock
 dev.js
 yarn-error.log
+package-lock.json
